@@ -8,7 +8,7 @@ import Page from "./page";
 jest.mock("./page", () => ({
   __esModule: true,
   metadata: {},
-  default: jest.fn(() => <h1>App Router</h1>),
+  default: jest.fn(() => <h1>Phú Quí tập làm CI/CD</h1>),
 }));
 
 it("App Router: Works with Server Components", () => {
